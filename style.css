@@ -1,0 +1,334 @@
+body {
+    max-width: 1400px;
+    margin: auto;
+}
+
+.info {
+    background: lightgray;
+    height: 300px;
+}
+
+.company {
+    padding-top: 100px;
+    padding-left: 200px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.company__logo {
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    background: grey;
+}
+
+.company__info {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 10px;
+}
+
+.company__name {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    color: grey;
+    font-weight: bold;
+}
+
+.company__description {
+    font-size: 1.5rem;
+    color: grey;
+}
+
+.phone-container {
+    text-align: right;
+    display: inline-block;
+    padding-top: 100px;
+    padding-left: 250px;
+    vertical-align: top;
+}
+
+.phone {
+    color: gray;
+    font-size: 2rem;
+}
+
+.phone2 {
+    color: gray;
+    font-size: 2rem;
+}
+
+.feedback {
+    display: inline-block;
+    color:lightslategray;
+    font-weight: 600;
+    border-bottom: 1px dashed;
+}
+
+.header {
+    background: darkgray;
+    height: 100px;
+    text-align: center;
+}
+.helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+.name {
+    cursor: pointer;
+    display: inline-block;
+    font-size: 2rem;
+    color:white;
+    padding: 10px;
+    vertical-align: middle;
+}
+
+.name:hover {
+    color: grey;
+}
+
+.devider {
+    display: inline-block;
+    font-size: 2rem;
+    color:white;
+    vertical-align: middle;
+    border-right: 3px solid white;
+    height: 40px;
+}
+
+.square1 {
+    height: 250px;
+    width: 250px;
+    border-radius: 250px;
+    background: #8787ff69;
+    position: absolute;
+    left: 40px;
+    bottom: -20px;
+}
+
+.pictures {
+    background: lightgray;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+    }
+
+.square2 {
+    height: 130px;
+    width: 130px;
+    border-radius: 130px;
+    background: #69ce699e;
+    position: absolute;
+    left: 220px;
+    top: 40px;
+    }
+
+.square3 {
+    height: 130px;
+    width: 130px;
+    border-radius: 130px;
+    background: #69ce699e;
+    position: absolute;
+    right: 20px;
+    bottom: 40px;
+    }
+
+.square4 {
+    height: 200px;
+    width: 200px;
+    border-radius: 200px;
+    background: #ff45005e;
+    position: absolute;
+    right: 60px;
+    top: -15px;
+    }
+
+.square5 {
+    height: 160px;
+    width: 160px;
+    border-radius: 160px;
+    background: #8787ff69;
+    position: absolute;
+    right: 240px;
+    top: 30px;
+    }
+
+.other {
+    height: 20px;
+}
+
+.main {
+    padding-left: 70px;
+}
+
+.palo4ka {
+    display: inline-block;
+    color: gray;
+}
+
+.nav-item {
+    cursor: pointer;
+    color: gray;
+}
+
+.nav-item:hover {
+    color: darkgray;
+    text-decoration: underline;   
+    cursor: pointer; 
+}
+
+.breadcrumbs .nav-item {
+    display: inline-block;
+    text-decoration-line: underline;
+}
+
+.aside {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px;
+}
+
+.product-container {
+    width: 750px;
+    display: inline-block;
+}
+
+.product{
+    width: 200px;
+    background: gray;
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px;
+    margin: 10px;
+}
+
+.product-image {
+    height: 150px;
+    background: darkgray;
+}
+
+.product-price {
+    position: relative;
+    color: black;
+    font-size: 2rem;
+    margin-top: 20px;
+}
+
+.product-description {
+    color: white;
+    margin-top: 10px;
+}
+
+.product-basket {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    right: 5px;
+    bottom: 0; 
+    background: white;
+}
+
+.price-list {
+    display: inline-block;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.price-list-picture {
+    height: 100px;
+    width: 100px;
+    background: black;
+    display: inline-block;
+    padding: 5px;
+}
+
+.price-list-picture-white {
+    height: 100%;
+    background: white;
+}
+
+.price-list-name {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.price-list-cotainer {
+    text-align: right;
+} 
+
+.content {
+    display: inline-block;
+    width: 720px;
+}
+
+.pages {
+    text-align: center;
+}
+
+.numbers {
+    display: inline-block;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 2rem;
+    color: gray;
+}
+
+.numbers:hover {
+    text-decoration-line: underline;
+}
+
+.divider {
+    border-top: 1px solid black;
+    margin: 10px 0px;
+}
+
+.column {
+    width: 50%;
+    display: inline-block;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+/* utils */
+
+.inline-no-space {
+    font-size: 0;
+}
+
+.inline-no-space > * {
+    font-size: 1rem;
+}
+
+.footer {
+    background: gray;
+    color: white;
+    line-height: 1.5;
+}
+
+.footer-column {
+    width: 33%;
+    display: inline-block;
+    padding: 5px;
+    box-sizing: border-box;
+    vertical-align: top;
+    text-align: center;
+}
+
+.left-footer-column {
+    display: inline-block;
+}
+
+.center-footer-column-catalog {
+    cursor: pointer;
+    text-decoration-line: underline;
+}
+
+.rigt-footer-column-site {
+    text-decoration-line: underline;
+}
+
+.footer-column > * {
+    text-align: left;
+}
